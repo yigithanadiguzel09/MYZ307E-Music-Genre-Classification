@@ -1,0 +1,9 @@
+Model,Yontem,Test Accuracy
+Tzanetakis & Cook (2002),30-dim + GMM-3,0.61
+Bizim replikasyonumuz,30-dim + GMM-3,0.5415
+Bizim replikasyonumuz,30-dim + kNN-5,0.5826
+Baseline MLP,"MLP, augment yok",0.4
+Augmented MLP,MLP + augment,0.4187
+CNN basic,CNN + augment,0.7153
+CNN V2,CNN + high dropout,0.7085
+CNN V3 (final),CNN + L2 + GAP + ReduceLR,0.762
